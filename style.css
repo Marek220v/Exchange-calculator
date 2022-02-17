@@ -1,0 +1,76 @@
+html {
+    margin: 0;
+    padding: 0;
+
+}
+
+.MainBody {
+    background-image: url(images/bg.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    max-width: 2000px;
+
+
+
+}
+
+.header {
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+    color: crimson;
+    font-size: 60px;
+    background-color: black;
+    border: 10px;
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.currency__list {
+    list-style: none;
+    font-size: 20px;
+    line-height: 1.6em;
+    padding: 10px;
+}
+
+.Currency__fieldset {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 100px;
+    border: none;
+    background-color: hsla(48, 100%, 93%, 85%);
+}
+
+.currency__Span {
+    font-size: 35px;
+    text-decoration: underline;
+
+}
+
+.currencyLable2__input {
+    padding: 10px;
+    border: 2px outset;
+    border-radius: 5px;
+}
+
+.button {
+    padding: 10px;
+    margin-left: 5px;
+    border: 2px outset;
+    border-radius: 5px;
+    color: azure;
+    background-color: rgb(36, 33, 33);
+}
+
+.currencyLable__header {
+    font-size: 20px;
+    line-height: 1.6em;
+    padding: 10px;
+}
+
+.currency__result1, .currency__result2 {
+    font-size: 20px;
+    line-height: 1.6em;
+    padding: 5px;
+}

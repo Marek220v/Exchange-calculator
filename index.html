@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <title>Walutomat</title>
+</head>
+
+<body class="MainBody">
+    <h1 class="header">Przelicznik walut</h1>
+    <form class="currency js-currency">
+        <fieldset class="Currency__fieldset">
+
+            <p>
+                <label class="currency__lable">
+                    <span class="currency__Span">Wybierz walutę:</span>
+                    <ul class="currency__list">
+                        <li class="currencyList__item">
+                            <input class="js-currency__input" type="radio" name="waluty" value="usd" id="checkbox"
+                                checked>USD
+                        </li>
+                        <li class="currencyList__item2">
+                            <input class="js-currency__input2" type="radio" name="waluty" value="euro"
+                                id="checkbox1">EURO
+                        </li>
+                        <li class="currencyList__item">
+                            <input class="js-currency__input3" type="radio" name="waluty" value="CHF" id="checkbox"
+                                checked>CHF
+                        </li>
+                        <li class="currencyList__item">
+                            <input class="js-currency__input4" type="radio" name="waluty" value="Bitcoin" id="checkbox"
+                                checked>Bitcoin
+                        </li>
+                    </ul>
+                </label>
+            </p>
+            <p>
+                <label class="currency__lable2">
+                    <h3>Ilość:</h3>
+                    <input class="currencyLable2__input" type="number" min="1" step="any" required>
+                    <button class="button js-button">Przelicz!</button>
+                </label>
+            </p>
+            <p>
+                <label class="currency__lable3">
+                    <h3 class="currencyLable__header">Wynik:</h3>
+                    <span class="currency__result1">0</span><span class="currency__result2">PLN</span>
+                </label>
+            </p>
+        </fieldset>
+    </form>
+</body>
+
+</html>
